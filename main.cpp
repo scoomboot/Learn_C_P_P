@@ -1,10 +1,14 @@
 #include <iostream>
 #include <string>
 
-// C++ Primitive Data Types | Modern Cpp Series Ep. 10
+// const in C++ - The first use | Modern Cpp Series Ep. 11
+// Const makes your variable immutable / non-changeable
+
 int main() {
-    std::string x = "Hello World";
-    std::cout << x << std::endl;
-    std::cout << sizeof(x) << std::endl;
+
+    const float x = 3.14f;
+    std::cout << "x: " << x << std::endl;
+    std::cout << "The size of x: " << sizeof(x) << std::endl;
+
     return 0;
 }
