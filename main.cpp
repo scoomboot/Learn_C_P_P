@@ -3,7 +3,7 @@
 // C++ Primitive Data Types | Modern Cpp Series Ep. 10
 
 int main() {
-    int64_t x = 4222222212121221212;
+    float x = 3.14f;
     std::cout << x << std::endl;
     std::cout << sizeof(x) << std::endl;
     return 0;
