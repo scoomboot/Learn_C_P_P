@@ -21,7 +21,7 @@ int main() {
     std::cout << "Size of index: " << sizeof(ids[0]) << std::endl << std::endl << std::endl;
 
 
-    std::array<int, 100> ids2;
+    std::array<int, 100> ids2{};
     ids2.at(0) = 1;
     ids2.at(1) = 2;
     ids2.at(2) = 3;
