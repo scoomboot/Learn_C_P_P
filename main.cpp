@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 
 // const in C++ - The first use | Modern Cpp Series Ep. 11
 // Const makes your variable immutable / non-changeable
