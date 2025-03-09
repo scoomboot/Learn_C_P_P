@@ -2,7 +2,7 @@
 
 // C++ Block Scope | Modern Cpp Series Ep. 12
 
-float x = 10.3f;
+float x = 10.3f; // Global var. Globals are not good. try to avoid these
 
 int main() {
 
